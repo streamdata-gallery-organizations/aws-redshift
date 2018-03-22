@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AuthorizeSnapshotAccess&k=1:
+  /?Action=AuthorizeSnapshotAccess:
     get:
       summary: ' Authorize Snapshot Access '
       description: |-
