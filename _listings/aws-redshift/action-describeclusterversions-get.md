@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeClusterVersions&k=1:
+  /?Action=DescribeClusterVersions:
     get:
       summary: ' Describe Cluster Versions '
       description: Returns descriptions of the available Amazon Redshift cluster versions
