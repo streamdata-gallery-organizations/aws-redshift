@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHsmClientCertificates&k=1:
+  /?Action=DescribeHsmClientCertificates:
     get:
       summary: ' Describe Hsm Client Certificates '
       description: Returns information about the specified HSM client certificate
