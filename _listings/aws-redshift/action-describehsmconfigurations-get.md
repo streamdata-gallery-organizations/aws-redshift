@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHsmConfigurations&k=1:
+  /?Action=DescribeHsmConfigurations:
     get:
       summary: ' Describe Hsm Configurations '
       description: Returns information about the specified Amazon Redshift HSM configuration
