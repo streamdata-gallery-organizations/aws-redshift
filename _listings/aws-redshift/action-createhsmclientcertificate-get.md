@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateHsmClientCertificate&k=1:
+  /?Action=CreateHsmClientCertificate:
     get:
       summary: ' Create Hsm Client Certificate '
       description: |-
