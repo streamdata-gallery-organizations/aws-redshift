@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateClusterSnapshot&k=1:
+  /?Action=CreateClusterSnapshot:
     get:
       summary: ' Create Cluster Snapshot '
       description: Creates a manual snapshot of the specified cluster
