@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PurchaseReservedNodeOffering&k=1:
+  /?Action=PurchaseReservedNodeOffering:
     get:
       summary: ' Purchase Reserved Node Offering '
       description: Allows you to purchase reserved nodes
