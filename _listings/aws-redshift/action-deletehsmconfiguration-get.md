@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteHsmConfiguration&k=1:
+  /?Action=DeleteHsmConfiguration:
     get:
       summary: ' Delete Hsm Configuration '
       description: Deletes the specified Amazon Redshift HSM configuration
