@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteHsmClientCertificate&k=1:
+  /?Action=DeleteHsmClientCertificate:
     get:
       summary: ' Delete Hsm Client Certificate '
       description: Deletes the specified HSM client certificate
