@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifySnapshotCopyRetentionPeriod&k=1:
+  /?Action=ModifySnapshotCopyRetentionPeriod:
     get:
       summary: ' Modify Snapshot Copy Retention Period '
       description: |-
