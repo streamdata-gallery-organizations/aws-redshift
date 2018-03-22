@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateClusterSubnetGroup&k=1:
+  /?Action=CreateClusterSubnetGroup:
     get:
       summary: ' Create Cluster Subnet Group '
       description: Creates a new Amazon Redshift subnet group
