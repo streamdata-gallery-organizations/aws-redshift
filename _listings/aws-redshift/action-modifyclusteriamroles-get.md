@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyClusterIamRoles&k=1:
+  /?Action=ModifyClusterIamRoles:
     get:
       summary: ' Modify Cluster Iam Roles '
       description: |-
