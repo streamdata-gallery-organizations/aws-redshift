@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateHsmConfiguration&k=1:
+  /?Action=CreateHsmConfiguration:
     get:
       summary: ' Create Hsm Configuration '
       description: |-
