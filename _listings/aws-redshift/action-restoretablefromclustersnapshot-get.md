@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreTableFromClusterSnapshot&k=1:
+  /?Action=RestoreTableFromClusterSnapshot:
     get:
       summary: ' Restore Table From Cluster Snapshot '
       description: Creates a new table from a table in an Amazon Redshift cluster
