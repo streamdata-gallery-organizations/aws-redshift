@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeResize&k=1:
+  /?Action=DescribeResize:
     get:
       summary: ' Describe Resize '
       description: Returns information about the last resize operation for the specified
