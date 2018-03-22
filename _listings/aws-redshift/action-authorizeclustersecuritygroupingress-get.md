@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AuthorizeClusterSecurityGroupIngress&k=1:
+  /?Action=AuthorizeClusterSecurityGroupIngress:
     get:
       summary: ' Authorize Cluster Security Group Ingress '
       description: Adds an inbound (ingress) rule to an Amazon Redshift security group
