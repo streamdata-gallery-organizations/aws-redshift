@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCluster&k=1:
+  /?Action=DeleteCluster:
     get:
       summary: ' Delete Cluster '
       description: Deletes a previously provisioned cluster
