@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateClusterParameterGroup&k=1:
+  /?Action=CreateClusterParameterGroup:
     get:
       summary: ' Create Cluster Parameter Group '
       description: Creates an Amazon Redshift parameter group
