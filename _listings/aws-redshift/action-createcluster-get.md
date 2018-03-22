@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCluster&k=1:
+  /?Action=CreateCluster:
     get:
       summary: ' Create Cluster '
       description: Creates a new cluster
