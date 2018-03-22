@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RevokeClusterSecurityGroupIngress&k=1:
+  /?Action=RevokeClusterSecurityGroupIngress:
     get:
       summary: ' Revoke Cluster Security Group Ingress '
       description: |-
