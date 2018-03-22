@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeClusterSubnetGroups&k=1:
+  /?Action=DescribeClusterSubnetGroups:
     get:
       summary: ' Describe Cluster Subnet Groups '
       description: |-
