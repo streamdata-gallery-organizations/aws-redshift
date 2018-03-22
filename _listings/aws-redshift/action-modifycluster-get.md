@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyCluster&k=1:
+  /?Action=ModifyCluster:
     get:
       summary: ' Modify Cluster '
       description: Modifies the settings for a cluster
