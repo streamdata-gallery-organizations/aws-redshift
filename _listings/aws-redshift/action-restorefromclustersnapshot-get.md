@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreFromClusterSnapshot&k=1:
+  /?Action=RestoreFromClusterSnapshot:
     get:
       summary: ' Restore From Cluster Snapshot '
       description: Creates a new cluster from a snapshot
