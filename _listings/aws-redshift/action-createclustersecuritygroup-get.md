@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateClusterSecurityGroup&k=1:
+  /?Action=CreateClusterSecurityGroup:
     get:
       summary: ' Create Cluster Security Group '
       description: Creates a new Amazon Redshift security group
