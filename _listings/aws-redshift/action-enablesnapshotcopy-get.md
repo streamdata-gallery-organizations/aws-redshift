@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableSnapshotCopy&k=1:
+  /?Action=EnableSnapshotCopy:
     get:
       summary: ' Enable Snapshot Copy '
       description: |-
