@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RebootCluster&k=1:
+  /?Action=RebootCluster:
     get:
       summary: ' Reboot Cluster '
       description: Reboots a cluster
