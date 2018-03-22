@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteClusterSecurityGroup&k=1:
+  /?Action=DeleteClusterSecurityGroup:
     get:
       summary: ' Delete Cluster Security Group '
       description: Deletes an Amazon Redshift security group
