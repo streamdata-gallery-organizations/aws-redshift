@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteClusterParameterGroup&k=1:
+  /?Action=DeleteClusterParameterGroup:
     get:
       summary: ' Delete Cluster Parameter Group '
       description: Deletes a specified Amazon Redshift parameter group
