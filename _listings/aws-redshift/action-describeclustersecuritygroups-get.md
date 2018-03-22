@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeClusterSecurityGroups&k=1:
+  /?Action=DescribeClusterSecurityGroups:
     get:
       summary: ' Describe Cluster Security Groups '
       description: Returns information about Amazon Redshift security groups
