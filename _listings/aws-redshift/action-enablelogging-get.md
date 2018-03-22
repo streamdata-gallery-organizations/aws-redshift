@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableLogging&k=1:
+  /?Action=EnableLogging:
     get:
       summary: ' Enable Logging '
       description: |-
