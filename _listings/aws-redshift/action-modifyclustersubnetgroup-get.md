@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyClusterSubnetGroup&k=1:
+  /?Action=ModifyClusterSubnetGroup:
     get:
       summary: ' Modify Cluster Subnet Group '
       description: Modifies a cluster subnet group to include the specified list of
