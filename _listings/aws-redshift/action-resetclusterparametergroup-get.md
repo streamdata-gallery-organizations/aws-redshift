@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetClusterParameterGroup&k=1:
+  /?Action=ResetClusterParameterGroup:
     get:
       summary: ' Reset Cluster Parameter Group '
       description: |-
