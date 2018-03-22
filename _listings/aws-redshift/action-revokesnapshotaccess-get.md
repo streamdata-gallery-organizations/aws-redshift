@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RevokeSnapshotAccess&k=1:
+  /?Action=RevokeSnapshotAccess:
     get:
       summary: ' Revoke Snapshot Access '
       description: |-
