@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEventSubscriptions&k=1:
+  /?Action=DescribeEventSubscriptions:
     get:
       summary: ' Describe Event Subscriptions '
       description: |-
