@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteClusterSnapshot&k=1:
+  /?Action=DeleteClusterSnapshot:
     get:
       summary: ' Delete Cluster Snapshot '
       description: Deletes the specified manual snapshot
