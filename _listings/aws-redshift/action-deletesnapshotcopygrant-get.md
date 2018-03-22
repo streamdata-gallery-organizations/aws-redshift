@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSnapshotCopyGrant&k=1:
+  /?Action=DeleteSnapshotCopyGrant:
     get:
       summary: ' Delete Snapshot Copy Grant '
       description: Deletes the specified snapshot copy grant
