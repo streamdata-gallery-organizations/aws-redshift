@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLoggingStatus&k=1:
+  /?Action=DescribeLoggingStatus:
     get:
       summary: ' Describe Logging Status '
       description: |-
