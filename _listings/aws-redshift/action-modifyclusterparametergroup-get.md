@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyClusterParameterGroup&k=1:
+  /?Action=ModifyClusterParameterGroup:
     get:
       summary: ' Modify Cluster Parameter Group '
       description: Modifies the parameters of a parameter group
