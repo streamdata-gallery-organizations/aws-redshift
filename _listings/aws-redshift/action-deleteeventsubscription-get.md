@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteEventSubscription&k=1:
+  /?Action=DeleteEventSubscription:
     get:
       summary: ' Delete Event Subscription '
       description: Deletes an Amazon Redshift event notification subscription
