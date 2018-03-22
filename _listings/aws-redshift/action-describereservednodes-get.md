@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReservedNodes&k=1:
+  /?Action=DescribeReservedNodes:
     get:
       summary: ' Describe Reserved Nodes '
       description: Returns the descriptions of the reserved nodes
