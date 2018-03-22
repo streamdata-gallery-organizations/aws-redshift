@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopyClusterSnapshot&k=1:
+  /?Action=CopyClusterSnapshot:
     get:
       summary: ' Copy Cluster Snapshot '
       description: Copies the specified automated cluster snapshot to a new manual
