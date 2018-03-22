@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSnapshotCopyGrant&k=1:
+  /?Action=CreateSnapshotCopyGrant:
     get:
       summary: ' Create Snapshot Copy Grant '
       description: |-
