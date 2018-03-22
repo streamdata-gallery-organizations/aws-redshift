@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyEventSubscription&k=1:
+  /?Action=ModifyEventSubscription:
     get:
       summary: ' Modify Event Subscription '
       description: Modifies an existing Amazon Redshift event notification subscription
