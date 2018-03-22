@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateEventSubscription&k=1:
+  /?Action=CreateEventSubscription:
     get:
       summary: ' Create Event Subscription '
       description: Creates an Amazon Redshift event notification subscription
