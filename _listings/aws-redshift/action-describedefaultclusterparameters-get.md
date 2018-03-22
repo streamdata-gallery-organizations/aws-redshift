@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDefaultClusterParameters&k=1:
+  /?Action=DescribeDefaultClusterParameters:
     get:
       summary: ' Describe Default Cluster Parameters '
       description: |-
