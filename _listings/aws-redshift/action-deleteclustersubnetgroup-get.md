@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteClusterSubnetGroup&k=1:
+  /?Action=DeleteClusterSubnetGroup:
     get:
       summary: ' Delete Cluster Subnet Group '
       description: Deletes the specified cluster subnet group
