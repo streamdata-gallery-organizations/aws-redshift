@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeClusterParameters&k=1:
+  /?Action=DescribeClusterParameters:
     get:
       summary: ' Describe Cluster Parameters '
       description: |-
