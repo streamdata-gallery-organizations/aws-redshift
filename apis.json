@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS Redshift",
+	"description": "This is a repository of aws redshift APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-redshift.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-redshift.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "AWS Redshift",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-redshift/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS Redshift",
+	"include": [
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-redshift/master/_listings/aws-redshift/apis.yaml"
+		}
+	]
+}
